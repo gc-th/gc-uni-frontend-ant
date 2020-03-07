@@ -19,7 +19,14 @@
     "noEmit": true,
     "jsx": "react"
   },
+  "baseUrl": ".",
+  "paths": {
+  "*": ["*", "src/*"]
+  },
   "include": [
     "src"
+  ],
+  "exclude": [
+    "config-overrides.js",
   ]
 }
